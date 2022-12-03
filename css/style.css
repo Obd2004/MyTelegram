@@ -1,0 +1,341 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    background-color: #0E1621;
+    margin-top: 20px;
+    /* max-width: 1440px; */
+    height: 650px;
+}
+.header{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    display: none;
+}
+.form{
+    margin-right: 0;
+    padding-left: 0;
+}
+.icons{
+    width: 60px;
+    margin-top: 20px;
+}
+.icons button{
+    margin-bottom: 20px;
+}
+.my__icon{
+    border: 1px solid transparent;
+    background-color: transparent;
+    color: red;
+}
+.my__icon1{
+    border: 1px solid transparent;
+    background-color: transparent;
+}
+.my__icon2{
+    border: 1px solid transparent;
+    background-color: transparent;
+}
+.my__icon3{    
+    border: 1px solid transparent;
+    background-color: transparent;
+    
+}
+.my__icon4{
+    border: 1px solid transparent;
+    background-color: transparent;
+}
+.my__icon5{
+    border: 1px solid transparent;
+    background-color: transparent;
+}
+.icon{
+    color: #768C9E;
+}
+.users{
+    background-color: #17212B;
+    height: 580px;
+    width: 300px;
+    overflow-x: hidden;
+    padding-right: -100px;
+
+}
+.my__btn{
+    display: block;
+    width: 300px;
+    margin-left: -48px;
+    background-color: transparent;
+    border: 1px solid transparent;
+    text-align: start;
+    padding-left: 20px;
+    display: flex;
+}
+.my__btn:hover{
+    cursor: pointer;
+    background-color: #25303E;
+
+}
+.user__li{
+    color: #fff;
+    list-style-type: none;
+}
+.user__name{
+    color: #5F8091;
+    list-style-type: none;
+    margin: 0 0 10px 0; 
+}
+.chats{
+    height: 590px;
+    overflow-x: hidden;
+    margin-top: 60px;
+    padding-bottom: 50px;
+}
+.chat{
+    list-style-type: none;
+    margin-left: 170px;
+    margin-top: 10px;
+    padding: 10px;
+    color: #fff;
+    font-size: 14px;
+    border-radius: 10px;
+    display: flex;
+    width: 300px;
+    background-color: #25303E;
+}
+li{
+    list-style-type: none;
+}
+
+::-webkit-scrollbar{
+    width: .4rem;
+}
+
+
+.input__poisk{
+    width: 230px;
+    height: 30px;
+    background-color: #242F3D;
+    padding: 0px 20px 0px 20px;
+    margin-left: -20px;
+    margin-bottom: 20px;
+    outline: none;
+    color: #fff;
+    border: 2px solid #242F3D;
+}
+.lock__btn{
+    background-color: transparent;
+    border: 1px solid transparent;
+    color: #6C7883;
+}
+.ul__li{
+    width: 300px;
+    position: absolute;
+    margin-left: 60px;
+    display: flex;
+    background-color: #17212B;
+    padding-top: 20px;
+    /* margin-top: 20px; */
+}
+.ul__li button{
+    margin-left: 10px;
+}
+.my__list{
+    color: #2B5278;
+    margin-left: -10px;
+    margin-bottom: 22px;
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: -20px;
+
+}
+.my__list:hover{
+    background-color: #242F3D   ;
+}
+.div{
+
+    width: 1200px;
+}
+.li__ul{
+    width: 480px;
+    position: absolute;
+    margin-left: 360px;
+    background-color: #17212B;
+    color: #fff;
+    height: 60px;
+    padding-top: 15px;
+    padding-left: 25px;
+    display: flex;
+}
+
+
+.cla{
+    width: 350px;
+    color: #fff;
+    padding-left: 20px;
+    background-color: #17212B;
+    height: 650px;
+    padding-top: 20px;
+    margin-left: 840px;
+    position: absolute;
+    display: none;
+}
+.foot{
+    display: flex;
+    margin-top: 50px;
+}
+.hr__r{
+    width: 250px;
+    position: absolute;
+}
+.you__user{
+    margin-left: 10px;   
+    margin-top: 5px;
+}
+.svgb{
+    margin-top: 30px;
+    margin-left: 20px;
+    
+}
+.neldiv{
+    display: flex;
+    margin-top: 40px;
+    
+}
+.neldiv li{
+    margin-right: 20px;
+}
+.neldiv1{
+    margin-top: 40px;
+    display: flex;
+}
+.top{
+    margin-right: 20px;
+}
+
+
+.ispaniya{
+    margin-left: 320px;
+    position: absolute;
+    display: flex;
+}
+.asd{
+    margin-right: 15px;
+}
+
+.newbtn{
+    margin-left: -11px;
+    margin-right: -10px;
+    padding-left: 8px;
+    padding-top: 10px;
+    /* padding-right: -5px; */
+}
+.newbtn:hover{
+    background-color: #17212B;
+
+}
+.xlmns{
+    color: #6C7883;
+    margin-top: -75px;
+}
+.xlmns:hover{
+    color: #fff;
+}
+.svg{
+    display: flex;
+}
+.svg svg{
+    margin-left: 150px;
+    margin-top: 8px;
+    color: #6C7883;
+}
+.svg svg:hover {
+    color: #fff;
+    cursor: pointer;
+}
+
+.youbtn{
+    background-color: transparent;
+    border: none;
+    margin-right: -15px;
+    margin-left: -5px;
+}
+.text{
+    position: absolute;
+    top: 630px;
+    width: 480px;
+    background-color: #25303E;
+    border: none;
+    height: 40px;
+    outline: none;
+    color: #fff;
+    padding-left: 30px;
+}
+
+
+
+.tg__blue{
+    background-color: #2B5278;
+    margin-right: 10px;
+}
+
+
+.none{
+    display: none;
+}
+.block{
+    display: block;
+    display: flex;
+}
+
+
+.loging__page{
+    text-align: center;
+    padding-top: 15%;
+    color: #fff;
+}
+.loging__page h4{
+    margin-bottom: 50px;
+    margin-right: 170px;
+    font-size: 42px;
+}
+.loging__page h6{
+    font-size: 22px;
+    color: #2F6EA5;
+}
+.loging__page input{
+    width: 300px;
+    height: 50px;
+    border: none;
+    display: block;
+    margin-left: 400px;
+    padding-left: 20px;
+    border-bottom: 1px solid #5F8091;
+    background-color: transparent;
+    color: #2F6EA5;
+    text-align: center;
+    outline: none;
+}
+.vxod{
+    color: #fff;
+    margin-top: 20px;
+    display: block;
+    margin-left: 430px;
+    height: 50px;
+    width: 250px;
+    border: none;
+    background-color: #2F6EA5;
+
+}
+.exit{
+    margin-top: 20px;
+    background-color: transparent;
+    color: #2F6EA5;
+    border: none;
+}
+
